@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
         const taskText = taskInput.value.trim();
         if (taskText === '') {
-            return;
+            return alert('Please enter a text! ');
         }
         const newTask = document.createElement('li');
         newTask.textContent = taskText;
