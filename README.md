@@ -20,7 +20,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Screen Shot](.\to-do-list.jpg)
 
 ## Technologies
 
