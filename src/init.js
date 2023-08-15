@@ -61,32 +61,3 @@ done.addEventListener(
     },
     false,
 );
-
-/*
-// new  to do
-
-function newElement() {
-    const li = document.createElement('li');
-    const inputValue = document.getElementById('myInput').value;
-    const t = document.createTextNode(inputValue);
-    li.appendChild(t);
-    if (inputValue === '') {
-        alert('You must write something!');
-    } else {
-        document.getElementById('myUl').appendChild(li);
-    }
-    document.getElementById('myInput').value = '';
-
-    const span = document.createElement('span');
-    const text = document.createTextNode('\u00D7');
-    span.className = 'close';
-    span.appendChild(text);
-    li.appendChild(span);
-
-    for (h = 0; h < close.length; h++) {
-        close[h].onclick = function () {
-            const div = this.parentElement;
-            div.style.display = 'none';
-        };
-    }
-}  */
